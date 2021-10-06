@@ -25,6 +25,7 @@ blockquote {
   margin-right: auto;
   margin-bottom: 10px;
   background-color: #DCDCDC;
+  box-shadow: 2px 2px 20px #999;
 }
 aside {
    padding: 7px;
