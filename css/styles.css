@@ -1,5 +1,14 @@
-h1 {
+h1, h2, h3 {
   color:black;
-  font-size: 16;
   font-family: "Calibri", sans-serif;
+}
+h1 {  font-size: 18;  }
+h2 {  font-size: 16;  }
+h3 {  font-size: 14;  }
+
+header, footer {
+  background-color: #C0C0C0
+}
+article {
+  background-color: #DCDCDC
 }
