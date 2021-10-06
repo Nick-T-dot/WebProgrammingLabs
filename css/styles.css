@@ -7,15 +7,18 @@ h2 {  font-size: 16;  }
 h3 {  font-size: 14;  }
 
 body {
-  background-color: #BDBDBD 
+  background-color: #BDBDBD;
 }
 
 header, footer {
-  background-color: #929292
+  margin: 0;
+  background-color: #929292;
 }
 article {
-  background-color: #BDBDBD 
+  background-color: #BDBDBD;
 }
 blockquote {
-  background-color: #DCDCDC
+  width: 100px
+  padding-right: auto;
+  background-color: #DCDCDC;
 }
