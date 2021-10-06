@@ -2,13 +2,20 @@ h1, h2, h3 {
   color:black;
   font-family: "Calibri", sans-serif;
 }
-h1 {  font-size: 18;  }
+h1 {  font-size: 22;  }
 h2 {  font-size: 16;  }
 h3 {  font-size: 14;  }
 
+body {
+  background-color: #BDBDBD 
+}
+
 header, footer {
-  background-color: #C0C0C0
+  background-color: #929292
 }
 article {
+  background-color: #BDBDBD 
+}
+blockquote {
   background-color: #DCDCDC
 }
