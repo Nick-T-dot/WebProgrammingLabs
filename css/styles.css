@@ -19,12 +19,13 @@ article {
   background-color: #BDBDBD;
 }
 blockquote {
-  width: 100px;
+  width: 2500px;
   margin-right: auto;
   margin-bottom: 10px;
   background-color: #DCDCDC;
 }
 aside {
+   width: 250px;
    margin-left: auto;
    margin-right: 0;
 }
