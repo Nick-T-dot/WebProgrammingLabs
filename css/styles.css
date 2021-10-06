@@ -34,3 +34,6 @@ aside {
    margin-left: auto;
    margin-right: 0;
 }
+.div_nav {
+   float: left; 
+}
