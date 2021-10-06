@@ -39,5 +39,12 @@ aside {
    float: right; 
 }
 .photo {
-   height: 25%
+   height: 128px
+}
+pre code {
+	padding-left: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+	color: #333;
+  font-family: default;
 }
