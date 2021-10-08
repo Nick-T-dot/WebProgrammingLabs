@@ -28,6 +28,8 @@ article {
   box-shadow: 5px 5px 10px #999;
 }
 blockquote {
+  word-spacing: 0px;
+  text-indent: 0px;
   padding: 7px;
   width: 250px;
   margin-right: auto;
