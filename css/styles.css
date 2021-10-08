@@ -30,6 +30,7 @@ blockquote {
   margin-bottom: 10px;
   background-color: #DCDCDC;
   box-shadow: 4px 4px 10px #999;
+  font-family: "Times New Roman", sans-serif;
 }
 aside {
    padding: 7px;
