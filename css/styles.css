@@ -3,6 +3,10 @@ h2 {  font-size: 16;  }
 h3 {  font-size: 14;  }
 
 body {
+  text-indent: 25px;
+  word-spacing: 5px;
+  line-height: 1.2;
+  text-align: left;
   color:#000000;
   font-family: "Calibri", sans-serif;
   line-height: 1.2;
@@ -33,6 +37,7 @@ blockquote {
   font-family: "Times New Roman", sans-serif;
 }
 aside {
+   text-decoration: none;
    padding: 7px;
    background-color: #D7D7D7;
    width: 250px;
