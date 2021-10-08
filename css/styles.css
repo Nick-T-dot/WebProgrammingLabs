@@ -45,9 +45,9 @@ aside {
    height: 128px
 }
 pre code {
-	padding-left: 25px;
+  padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-	color: #333;
+  color: #333;
   font-family: default;
 }
