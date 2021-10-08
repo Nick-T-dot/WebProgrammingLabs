@@ -15,6 +15,7 @@ header, footer {
   margin: 0;
   padding: 10px;
   background-color: #929292;
+  box-shadow: 7px 7px 10px #999;
 }
 article {
   font-family: "Calibri", sans-serif;
@@ -49,6 +50,8 @@ pre code {
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: #333;
   font-family: default;
+}
+.ad {
+  background-color: #D99586
 }
