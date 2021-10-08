@@ -1,12 +1,11 @@
-h1, h2, h3 {
-  color:black;
-  font-family: "Calibri", sans-serif;
-}
 h1 {  font-size: 22;  }
 h2 {  font-size: 16;  }
 h3 {  font-size: 14;  }
 
 body {
+  color:#000000;
+  font-family: "Calibri", sans-serif;
+  line-height: 1.2;
   padding: 0px;
   background-color: #BDBDBD;
 }
