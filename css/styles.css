@@ -1,5 +1,6 @@
 h1, h2, h3 {
-  background-color: #CDCDCD;
+  background-color: #9A9A9A;
+  box-shadow: 2px 2px 5px #999;
 }
 h1 {  font-size: 24;  }
 h2 {  font-size: 16;  }
@@ -42,13 +43,15 @@ blockquote {
   font-family: "Times New Roman", sans-serif;
 }
 aside {
-   text-decoration: none;
    padding: 7px;
    background-color: #D7D7D7;
    width: 250px;
    margin-left: auto;
    margin-right: 0;
    box-shadow: 5px 5px 10px #999;
+}
+nav {
+  text-decoration: none;
 }
 .div_nav {
    float: right; 
