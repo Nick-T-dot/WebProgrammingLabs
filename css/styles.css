@@ -11,6 +11,7 @@ h2 {  font-size: 16;  }
 h3 {  font-size: 14;  }
 
 body {
+  line-height: normal;
   text-indent: 25px;
   word-spacing: 2px;
   line-height: 1.2;
