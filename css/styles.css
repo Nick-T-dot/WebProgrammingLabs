@@ -65,6 +65,7 @@ aside {
 pre {
   word-spacing: 0px;
   text-indent: 0px;
+  margin-left: 25px
 }
 pre code {
   padding-left: 25px;
