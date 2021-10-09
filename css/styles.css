@@ -87,10 +87,10 @@ a:link {
 }
 a:visited {
   color: #646464;
-  text-decoration-style: double;
 }
 a:hover {
   color: #AEAEAE;
+  text-decoration-style: double;
 }
 a:active {
   color: #BEBEBE;
