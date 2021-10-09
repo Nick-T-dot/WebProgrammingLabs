@@ -56,9 +56,6 @@ aside {
    margin-right: 0;
    box-shadow: 5px 0px 10px #999;
 }
-nav {
-  text-decoration: none;
-}
 .div_nav {
    float: right; 
 }
@@ -78,4 +75,22 @@ pre code {
 .ad {
   text-transform: capitalize;
   background-color: #D99586
+}
+a {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+a:link {
+  color: #3F3F3F;
+}
+a:visited {
+  background-color: #646464;
+  text-decoration-style: double;
+}
+a:hover {
+  background-color: #BEBEBE;
+}
+a:active {
+  background-color: #F1F1F1;
+  text-decoration-style: double;
 }
