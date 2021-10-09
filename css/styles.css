@@ -88,11 +88,11 @@ a:visited {
   text-decoration-style: double;
 }
 a:hover {
-  color: #BEBEBE;
+  color: #CECECE;
   background-color: #BEBEBE;
 }
 a:active {
-  color: #F1F1F1;
+  color: #D1D1D1;
   background-color: #F1F1F1;
   text-decoration-style: double;
 }
