@@ -1,9 +1,10 @@
 h1, h2, h3 {
-  box-shadow: 0px 2px 5px #С0С0С0;
+  background-color: #A0A0A0;
+  box-shadow: 0px 2px 5px #A0A0A0;
 }
 article h2  {
   background-color: #D0D0D0;
-  box-shadow: 0px 2px 5px #999;
+  box-shadow: 0px 2px 5px #D0D0D0;
 }
 h1 {  font-size: 24;  }
 h2 {  font-size: 16;  }
