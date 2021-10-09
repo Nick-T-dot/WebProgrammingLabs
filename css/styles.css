@@ -79,6 +79,7 @@ pre code {
 a {
   text-decoration: underline;
   text-decoration-style: solid;
+  background-color: none;
 }
 a:link {
   color: #3F3F3F;
@@ -89,7 +90,6 @@ a:visited {
 }
 a:hover {
   color: #AEAEAE;
-  background-color: #BEBEBE;
 }
 a:active {
   color: #BEBEBE;
