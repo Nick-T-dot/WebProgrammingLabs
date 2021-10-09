@@ -1,5 +1,4 @@
 h1, h2, h3 {
-  background-color: #9A9A9A;
   box-shadow: 2px 2px 5px #999;
 }
 h2 article {
@@ -29,6 +28,7 @@ header, footer {
   box-shadow: 7px 7px 10px #999;
 }
 article {
+  display: flex;
   font-family: "Calibri", sans-serif;
   margin: 3px;
   padding: 10px;
