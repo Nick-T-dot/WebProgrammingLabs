@@ -84,13 +84,15 @@ a:link {
   color: #3F3F3F;
 }
 a:visited {
-  background-color: #646464;
+  color: #646464;
   text-decoration-style: double;
 }
 a:hover {
+  color: #BEBEBE;
   background-color: #BEBEBE;
 }
 a:active {
+  color: #F1F1F1;
   background-color: #F1F1F1;
   text-decoration-style: double;
 }
