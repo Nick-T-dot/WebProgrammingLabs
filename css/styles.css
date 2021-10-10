@@ -38,6 +38,7 @@ article {
   box-shadow: 5px 5px 10px #999;
 }
 blockquote {
+  line-height: 1;
   word-spacing: 0px;
   text-indent: 0px;
   padding: 7px;
