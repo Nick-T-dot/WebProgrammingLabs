@@ -1,5 +1,5 @@
 h1, h2, h3 {
-  filter: drop-shadow(2) ,saturate(100);
+  filter: saturate(100);
   background-color: #A0A0A0;
   box-shadow: 0px 2px 5px #A0A0A0;
 }
