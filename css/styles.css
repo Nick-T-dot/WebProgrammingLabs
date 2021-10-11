@@ -47,7 +47,7 @@ blockquote {
   margin-bottom: 10px;
   background-color: #DCDCDC;
   box-shadow: 0px 0px 3px #DCDCDC;
-  font-family: "Times New Roman", sans-serif;
+  font-family: "Times New Roman", serif;
 }
 aside {
    padding: 7px;
@@ -72,7 +72,7 @@ pre code {
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
-  font-family: "Roboto Mono", sans-serif;
+  font-family: default;
 }
 #ad {
   text-transform: capitalize;
