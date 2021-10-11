@@ -32,7 +32,7 @@ header, footer {
 }
 article {
   font-family: "Calibri", sans-serif;
-  margin: 3px;
+  margin: 6px 3px;
   padding: 10px;
   background-color: #CDCDCD;
   box-shadow: 0px 0px 10px #999;
