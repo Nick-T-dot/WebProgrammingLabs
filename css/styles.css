@@ -98,3 +98,6 @@ a:active {
   background-color: #F1F1F1;
   text-decoration-style: double;
 }
+img {
+  box-shadow: 0px 2px 5px #F0F0F0;
+}
