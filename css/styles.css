@@ -94,6 +94,10 @@ pre code {
   text-transform: capitalize;
   background-color: #D99586
 }
+#ad a{
+  min-height: 20px;
+  min-width: 20px;
+}
 #ad div {
   display: flex;
   justify-content:space-around;
@@ -102,7 +106,6 @@ pre code {
   flex-direction:row;
   flex-wrap: wrap;
   padding-top:7px;
-  min-height: 20px;
 }
 
 .adpic{
