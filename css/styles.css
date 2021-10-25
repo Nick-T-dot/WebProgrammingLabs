@@ -52,7 +52,6 @@ blockquote {
 }
 
 aside {
-   display:flex;
    flex-direction:column;
    padding: 7px;
    background-color: #D7D7D7;
@@ -60,8 +59,6 @@ aside {
    margin-left: auto;
    margin-right: 0;
    box-shadow: 5px 0px 10px #999;
-   position: sticky;
-   top: 250px; right: 40px; 
 }
 @media screen and (device-aspect-ratio:18/9){
 	aside {
@@ -74,7 +71,10 @@ aside {
 	}
 }
 .div_nav {
-   float: right; 
+   float: right;
+   position: sticky;
+   right: 10px;
+   top: 5px; 
 }
 .photo {
    height: 128px
@@ -85,13 +85,14 @@ pre {
   margin-left: 25px
 }
 pre code {
+  overflow: scroll;
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
   font-family: default;
 }
-.code {
-	overflow: scroll;
+#code {
+	 overflow: auto; 
 }
 #ad {
   text-transform: capitalize;
