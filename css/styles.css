@@ -63,7 +63,7 @@ aside {
    position: absolute;
    top: 250px; right: 40px; 
 }
-@media screen and (device-aspect-ratio:handheld){
+@media screen and (device-aspect-ratio:18/9){
 	aside {
 		display:none;
 	}
