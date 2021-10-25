@@ -85,7 +85,7 @@ pre {
   margin-left: 25px
 }
 pre code {
-  overflow: scroll;
+  overflow-x: scroll;
   padding-left: 25px;
   padding-top: 10px;
   padding-bottom: 10px;
