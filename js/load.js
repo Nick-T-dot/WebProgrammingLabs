@@ -5,10 +5,8 @@ try {
 	document.addEventListener("DOMContentLoaded", (function() {
 		begin = new Date().getTime();		
 	})());
-	document.addEventListener("load", (function() {
-		end = new Date().getTime(); 
-	})());
-	window.onload = function() {	
+	window.onload = function() {
+		end = new Date().getTime();		
 		load = (end - begin);
 		newText = document.createTextNode("Loaded in " + load.toString() + " ms");
 		document.getElementsByTagName("FOOTER")[0].appendChild(newText);
