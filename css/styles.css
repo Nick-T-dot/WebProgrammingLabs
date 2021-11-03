@@ -158,3 +158,27 @@ img {
 	padding: .5em;
 	text-align: center;
 }
+
+#headmenu {
+	text-indent: 0px;
+	display: flex;
+	padding:2px;
+	justify-content: flex-start;
+	text-align: center;
+	font-size: 20px;
+}
+#headmenu a{
+	margin-right: 3px;
+	margin-left: 3px;
+	padding:3px;
+	border: 2px;
+	border-style: solid;
+	border-color: #232323;
+	text-align: left;
+    text-decoration: none;
+	color: #131313;
+	background-color: #5F5F5F;
+}
+#headmenu a:hover {
+	background-color: #737373;
+}
