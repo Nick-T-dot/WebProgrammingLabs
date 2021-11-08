@@ -14,12 +14,17 @@ try {
 		var loc = document.location.toString().split("/");
 		loc = loc[loc.length - 1]
 		var menuItems = document.getElementById("headmenu").getElementsByTagName("A");
-		switch(loc)
+		var len = menuItems.length;
+		var st = "";
+		
+		for (var i = 0; i < len; i++)
 		{
-		case "index.html" : menuItems[0].classList.add("actmenu"); break;
-		case "info.html" : menuItems[1].classList.add("actmenu"); break;
-		case "blank.html" : menuItems[2].classList.add("actmenu"); break;
-		default : menuItems[0].classList.add("actmenu"); break;
+			st = menuItems[i].href.toString().split("/");
+			st = st[st.length - 1]
+			if (st == loc)	
+			{
+				menuItems[i].classList.add("actmenu")
+			}
 		}
 	};
 }
