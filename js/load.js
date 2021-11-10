@@ -16,6 +16,7 @@ try {
 		var menuItems = document.getElementById("headmenu").getElementsByTagName("A");
 		var len = menuItems.length;
 		var st = "";
+		let match = 0;
 		
 		for (var i = 0; i < len; i++)
 		{
@@ -23,8 +24,13 @@ try {
 			st = st[st.length - 1]
 			if (st == loc)	
 			{
-				menuItems[i].classList.add("actmenu")
+				menuItems[i].classList.add("actmenu");
+				match = 1;
 			}
+		}
+		if (match == 0)
+		{
+			menuItems[0].classList.add("actmenu");
 		}
 	};
 }
