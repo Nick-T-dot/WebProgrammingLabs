@@ -22,6 +22,7 @@ try {
 		{
 			st = menuItems[i].href.toString().split("/");
 			st = st[st.length - 1]
+			st = st.replace('\W', '')
 			if (st == loc)	
 			{
 				menuItems[i].classList.add("actmenu");
