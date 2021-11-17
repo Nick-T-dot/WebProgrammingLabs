@@ -12,7 +12,7 @@ try {
 		document.getElementsByTagName("FOOTER")[0].appendChild(newText);
 	
 		var loc = document.location.toString().split("/");
-		loc = loc[loc.length - 1]
+		loc = loc[loc.length - 1].replace('\?', '')
 		var menuItems = document.getElementById("headmenu").getElementsByTagName("A");
 		var len = menuItems.length;
 		var st = "";
@@ -22,7 +22,7 @@ try {
 		{
 			st = menuItems[i].href.toString().split("/");
 			st = st[st.length - 1]
-			st = st.replace('\?', '')
+
 			if (st == loc)	
 			{
 				menuItems[i].classList.add("actmenu");
