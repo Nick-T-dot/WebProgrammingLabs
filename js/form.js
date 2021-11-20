@@ -88,14 +88,14 @@ function makeEl(tex)
 function loadList()
 {
         let div = document.getElementById("formlist")
-        if (div)
-        {
+        if (div) {
             let el = null 
             let list = JSON.parse(window.localStorage.getItem("loc"))
-            alert(JSON.stringify(window.localStorage))
-            for (let i = 0; i < list.length; i++) {
-                el = makeEl(list[i])
-                div.appendChild(el)
+            if (list) {
+                for (let i = 0; i < list.length; i++) {
+                    el = makeEl(list[i])
+                    div.appendChild(el)
+                }
             }
         }
 }
