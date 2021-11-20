@@ -92,6 +92,7 @@ function loadList()
         {
             let el = null 
             let list = JSON.parse(window.localStorage.getItem("loc"))
+            alert(JSON.stringify(window.localStorage))
             for (let i = 0; i < list.length; i++) {
                 el = makeEl(list[i])
                 div.appendChild(el)
