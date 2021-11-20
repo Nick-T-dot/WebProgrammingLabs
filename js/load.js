@@ -3,16 +3,16 @@ var end = 0;
 
 try {	
 	document.addEventListener("DOMContentLoaded", (function() {
-		begin = new Date().getTime();		
+		begin = new Date().getTime();
 	})());
-	window.onload = function() {
+	window.onload = function() {   
 		end = new Date().getTime();		
 		load = (end - begin);
 		newText = document.createTextNode("Loaded in " + load.toString() + " ms");
 		document.getElementsByTagName("FOOTER")[0].appendChild(newText);
 	
 		var loc = document.location.toString().split("/");
-		loc = loc[loc.length - 1].replace('\?', '')
+		loc = loc[loc.length - 1].split('\?')[0]
 		var menuItems = document.getElementById("headmenu").getElementsByTagName("A");
 		var len = menuItems.length;
 		var st = "";
@@ -32,7 +32,7 @@ try {
 		if (match == 0)
 		{
 			menuItems[0].classList.add("actmenu");
-		}
+		}  
 	};
 }
 catch(err)
