@@ -46,7 +46,6 @@ function movedown(obj)
 
 function dumpLines(div)
 {
-    console.log(div)
     let lines = []
     let child = null;
     let ps = div.getElementsByClassName('formentry')
