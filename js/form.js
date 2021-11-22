@@ -101,6 +101,6 @@ function loadList()
 
 window.addEventListener("load", function(event) {
     loadList()
-    document.addEventListener("submit", function(event) {tryAddEl()})
+    document.addEventListener("submit", tryAddEl)
   });  
   
