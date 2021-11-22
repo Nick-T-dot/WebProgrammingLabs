@@ -12,6 +12,7 @@ function tryAddEl(event)
     {
         alert(err)
     }
+    document.getElementById("form").value = ""
     event.stopPropagation();
 }
 
