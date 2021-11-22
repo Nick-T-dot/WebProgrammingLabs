@@ -1,4 +1,4 @@
-function tryAddEl()
+function tryAddEl(event)
 {
     try {	
         //.getElementById("formlist")
@@ -12,7 +12,7 @@ function tryAddEl()
     {
         alert(err)
     }
-    return false;
+    event.stopPropagation();
 }
 
 function del(obj)
@@ -46,7 +46,6 @@ function movedown(obj)
 
 function dumpLines(div)
 {
-    console.log(div)
     let lines = []
     let child = null;
     let ps = div.getElementsByClassName('formentry')
@@ -103,7 +102,6 @@ function loadList()
             {
                 for (let i = 0; i < list.length; i++) {
                     el = makeEl(list[i])
-                    console.log(list[i])
                     div.appendChild(el)
                 }
             }
