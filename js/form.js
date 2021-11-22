@@ -46,18 +46,19 @@ function movedown(obj)
 
 function dumpLines(div)
 {
+    console.log(div)
     let lines = []
     let child = null;
     let ps = div.getElementsByClassName('formentry')
     for (let i = 0; i < ps.length; i++)
     {
         child = ps[i]
-        lines.push(child.lastChild.innerText)
+        lines.push(child.getElementsByTagName('P')[0].textContent)
     }
     window.localStorage.setItem("loc", JSON.stringify(lines))
 }
 
-function makeEl(tex)
+function makeEl1(tex)
 {
     let el = document.createElement('P')
     let p = document.createElement('P')
@@ -84,17 +85,24 @@ function makeEl(tex)
     return el
 }
 
+function makeEl(tex)
+{
+    let el = document.getElementById('formtemp').content.cloneNode(true).childNodes[1]
+    el.getElementsByTagName('P')[0].textContent = tex
+    return el
+}
+
 function loadList()
 {
         let div = document.getElementById("formlist")
-        if (div) {
+        if (div)
+        {
             let el = null 
             let list = JSON.parse(window.localStorage.getItem("loc"))
-            if (list) {
-                for (let i = 0; i < list.length; i++) {
-                    el = makeEl(list[i])
-                    div.appendChild(el)
-                }
+            for (let i = 0; i < list.length; i++) {
+                el = makeEl(list[i])
+                console.log(list[i])
+                div.appendChild(el)
             }
         }
 }

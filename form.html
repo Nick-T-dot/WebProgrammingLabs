@@ -31,9 +31,19 @@
                 	<button type='submit'>Отправить</button>
 					<input name="text" type="text" placeholder="Текст" id="form">
 				</form>
-                <div id="formlist">
+                <div id="formlist"> 
                 </div>
 			</article>
+            <template id="formtemp">
+                <div class="formentry">
+                    <button type="button" onclick="del(this)">X</button>
+                    <div>
+                        <button type="button" onclick="moveup(this)">&#8657</button>
+                        <button type="button" onclick="movedown(this)">&#8659</button>
+                    </div>
+                    <p></p>        
+                </div>
+           </template>
 		</main>
 		<footer>
 			<section id="cont">
