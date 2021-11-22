@@ -99,10 +99,13 @@ function loadList()
         {
             let el = null 
             let list = JSON.parse(window.localStorage.getItem("loc"))
-            for (let i = 0; i < list.length; i++) {
-                el = makeEl(list[i])
-                console.log(list[i])
-                div.appendChild(el)
+            if (list)
+            {
+                for (let i = 0; i < list.length; i++) {
+                    el = makeEl(list[i])
+                    console.log(list[i])
+                    div.appendChild(el)
+                }
             }
         }
 }
