@@ -265,7 +265,7 @@ button
     align-items:center;
 }
 .gallery img {
-    width:400px;
+    width:35%;
 }
 #loader {
     background-color: none;
