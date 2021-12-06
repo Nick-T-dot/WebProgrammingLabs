@@ -271,6 +271,15 @@ button
     background-color: none;
     box-shadow: none;
     width:128px;
+    animation: rotation 1s infinite linear;
+}
+@keyframes rotation{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }
 #commlist {
     display:flex;
