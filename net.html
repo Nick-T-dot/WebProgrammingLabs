@@ -7,7 +7,7 @@
 		<!-- <link rel="stylesheet" href="outline-prototype-labelcss"> -->
 		<link rel="stylesheet" href="css/styles.css">
 		<script src="js/load.js"></script>
-        <script src="js/form.js"></script>
+        	<script src="js/net.js"></script>
 	</head>
 	<body>
 		<header>
@@ -27,21 +27,17 @@
 			</section>
 		</header>
 		<main>
-			<article>			
-				<form onsubmit='return false;'>
-                	<button type='submit'>Отправить</button>
-					<input name="text" type="text" placeholder="Текст" id="form">
-				</form>
-                <div id="formlist"> 
+			<article class="gallery">			
+				<img src="images/sobaka.jpg" alt="sobaka">
+                <img id="loader">
+                <p id="fuckup" hidden>Ты всё сломал D:<</p>
+                <div id="commlist" hidden> 
                 </div>
 			</article>
-            <template id="formtemp">
-                <div class="formentry">
-                    <button type="button" onclick="del(this)">X</button>
-                    <div>
-                        <button type="button" onclick="moveup(this)">&#8657</button>
-                        <button type="button" onclick="movedown(this)">&#8659</button>
-                    </div>
+            <template id="comment">
+                <div class="commentry">
+                    <p>name: </p>
+                    <p>email: </p>
                     <p></p>        
                 </div>
            </template>
